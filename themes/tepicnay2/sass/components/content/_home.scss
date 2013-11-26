@@ -1,0 +1,27 @@
+.view-negocios ul,
+.view-negocios ul li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.view-negocios ul{
+  text-align: center;
+  padding: 0 0 10px 10px;
+}
+.view-negocios ul li{
+  display: inline-block;
+  width: 30%;
+  min-width: 100px;
+  max-width: 140px;
+}
+.view-negocios ul li .image{
+  padding: 10px 10px 0 0;
+}
+.view-negocios ul li a{
+  display: block;
+}
+.view-negocios ul li a img{
+  width: 100%;
+  height: 100%;
+  border: #8cc43e solid 1px ;
+}

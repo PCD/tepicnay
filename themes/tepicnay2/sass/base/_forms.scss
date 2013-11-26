@@ -1,0 +1,33 @@
+textarea, input[type="text"], input[type="password"]{
+  background: white;
+  border-radius: 6px 6px 6px 6px;
+  vertical-align: middle;
+  font-size: 1em;
+  line-height: 1.4em;
+  width: 100%;
+  padding: 4px 6px;
+  display: inline-block;
+  box-sizing: border-box;
+  border: solid 1px #aaa;
+  color: #333;
+}
+.resizable-textarea .grippie{
+  display: none;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"]{
+  position: relative;
+  -webkit-appearance: button;
+  display: inline-block;
+  padding: 6px 12px;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  box-sizing: content-box;
+  border-radius: 10px 10px 10px 10px;
+  border: solid 1px #aaa;
+  background-color: #fefefe;
+  box-shadow: 0px 1px 0px 0px #555;
+  @include filter-gradient(#fefefe, #e5e5e5, vertical);
+  @include background-image(linear-gradient(top,  #fefefe 1%,#e5e5e5 100%));
+}

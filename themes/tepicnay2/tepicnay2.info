@@ -1,0 +1,19 @@
+name = tepicnay2
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/tepicnay2.normalize.css
+stylesheets[all][] = css/tepicnay2.hacks.css
+stylesheets[all][] = css/tepicnay2.styles.css
+stylesheets[all][] = css/tepicnay2.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/tepicnay2.behaviors.js
