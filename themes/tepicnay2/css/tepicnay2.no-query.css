@@ -222,3 +222,7 @@ h1 {
   display: inline-block;
   width: 250px;
   height: 200px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay2\/sass\/components\/leftbar\/_left-bar\.scss}line{font-family:\000031}}
+.l-region--sidebar-first {
+  padding: 0 10px; }
