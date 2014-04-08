@@ -5,3 +5,5 @@ settings.php
 # Ignore paths that contain user-generated content.
 files
 private
+pvt
+tmp
