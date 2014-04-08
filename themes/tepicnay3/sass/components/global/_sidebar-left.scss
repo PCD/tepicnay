@@ -1,0 +1,8 @@
+.l-region--sidebar-first{
+  border: 1px solid #DED;
+  padding: 10px;
+  background: white;
+  .block+.block{
+    margin-top: 10px;
+  }
+}

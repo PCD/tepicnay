@@ -1,0 +1,29 @@
+#block-views-categorias-block{
+  h2{
+    color: #CCCCCC;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .item-list ul,
+  .item-list ul li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  ul li.views-row{
+    background: url(../images/catagories-bg-a.gif) left 5px no-repeat;
+    padding: 0px 0 0px 13px;
+    vertical-align: top;
+    padding: 0px 0 0px 13px;
+    font-size: 13px;
+    a{
+      color: #000000;
+      text-decoration: none;
+      padding: 2px 0;
+      display: block;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
+  }
+}

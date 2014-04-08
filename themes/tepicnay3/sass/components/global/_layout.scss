@@ -1,0 +1,38 @@
+.sidebar-first-present{
+  .colmask{
+    position: relative;
+    clear: both;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+  }
+  .colmask:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .colright{
+    float: left;
+    width: 200%;
+    position: relative;
+    left: 278px;
+  }
+  .l-content-wrapper{
+    float: right;
+    width: 50%;
+    position: relative;
+    right: 278px;
+  }
+  .l-region--sidebar-first{
+    float: left;
+    width: 268px;
+    position: relative;
+    right: 278px;
+  }
+  .l-content{
+    margin: 0 0 0 278px;
+    position: relative;
+    right: 100%;
+    overflow: hidden;
+  }
+}

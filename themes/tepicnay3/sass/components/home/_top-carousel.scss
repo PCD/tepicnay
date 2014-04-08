@@ -1,0 +1,14 @@
+#block-views-banners-carrucel-block{
+  margin-left: 250px;
+  ul,
+  ul li{
+    padding: 0;
+    margin: 0 10px 0 0;
+    list-style: none;
+  }
+  .views-row{
+    width: 480px;
+    height: 240px;
+    overflow: hidden;
+  }
+}

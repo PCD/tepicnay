@@ -1,0 +1,19 @@
+#block-tepicnaym-mensaje-form{
+  width: 230px;
+  float: left;
+  input.form-text{
+    width: 100%;
+  }
+  p.green{
+    font-size: 12px;
+    color: #8EC615;
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+  .form-textarea{
+    height: 75px;
+  }
+  .grippie{
+    display: none;
+  }
+}

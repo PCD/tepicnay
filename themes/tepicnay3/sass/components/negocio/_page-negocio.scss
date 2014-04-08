@@ -1,0 +1,79 @@
+.page-node.node-type-negocio{
+  .l-content{
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  .colmask{
+    position: relative;
+    clear: both;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    .node--negocio{
+      float: left;
+      width: 200%;
+      position: relative;
+      left: 278px;
+    }
+  }
+  .group-content{
+    margin: 0 0 0 278px;
+    position: relative;
+    right: 100%;
+    overflow: hidden;
+  }
+  .group-right{
+    float: left;
+    width: 268px;
+    position: relative;
+    right: 278px;
+  }
+  .group-left{
+    float: right;
+    width: 50%;
+    position: relative;
+    right: 278px;
+    .field{
+      clear: right;
+      margin-bottom: 20px;
+    }
+    h1{
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 10px;
+    }
+    .field__label{
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      color: #8EC615;
+    }
+    .field--name-field-images .field__items:after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .field--name-field-images .field__item{
+      float: left;
+      width: 165px;
+      height: 130px;
+      
+      a{
+        display: block;
+        width: 165px;
+        height: 130px;
+        padding: 5px;
+      }
+    }
+  }
+  
+  .group-right,
+  .group-content{
+    border: 1px solid #DED;
+    padding: 10px;
+    background: white;
+  }
+}
