@@ -1,6 +1,9 @@
 #block-views-banners-carrucel-block{
   margin-left: 250px;
   overflow: hidden;
+  ul{
+    width: 2460px;
+  }
   ul,
   ul li{
     padding: 0;
@@ -9,6 +12,7 @@
   }
   ul li,
   .jcarousel-item{
+    float: left;
     margin: 0 10px 0 0;
   }
   .views-row,
@@ -29,9 +33,8 @@
     }
     .views-row,
     .jcarousel-item{
-      width: 100%;
+      width: auto;
       height: auto;
-      float: left;
       
       .field__item{
         text-align: center;
