@@ -19,3 +19,8 @@
     width: 300px;
   }
 }
+@media only screen and ($max_width_style : $mobile_limit) {
+  #block-search-form{
+    display: none;
+  }
+}

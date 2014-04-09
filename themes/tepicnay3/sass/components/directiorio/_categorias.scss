@@ -27,3 +27,8 @@
     }
   }
 }
+@media only screen and ($max_width_style : $mobile_limit) {
+  #block-views-categorias-block{
+    display: none;
+  }
+}

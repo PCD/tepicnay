@@ -36,3 +36,20 @@
     overflow: hidden;
   }
 }
+@media only screen and ($max_width_style : $mobile_limit) {
+  .sidebar-first-present{
+    .colmask, 
+    .colright, 
+    .l-content-wrapper, 
+    .l-region--sidebar-first, 
+    .l-content{
+      position: static;
+      overflow: visible;
+      float: none;
+      width: auto;
+      left: auto;
+      right: auto;
+      margin: 0;
+    }
+  }
+}

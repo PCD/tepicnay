@@ -17,3 +17,8 @@
     display: none;
   }
 }
+@media only screen and ($max_width_style : $mobile_limit) {
+  #block-tepicnaym-mensaje-form{
+    display: none;
+  }
+}

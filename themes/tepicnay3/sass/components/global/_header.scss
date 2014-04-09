@@ -1,7 +1,12 @@
 .l-header{
-  width: 960px;
+  min-width: 960px;
   margin: 0 auto 10px;
   padding-top: 10px;
+}
+.l-header:after{
+  content: "";
+  display: table;
+  clear: both;
 }
 .l-branding{
   width: 260px;
@@ -14,4 +19,13 @@
 .l-region--header{
   margin-left: 260px;
   min-height: 72px;
+}
+@media only screen and ($max_width_style : $mobile_limit) {
+  .l-header{
+    min-width: 0;
+  }
+  .l-region--branding,
+  .l-region--header{
+    display: none;
+  }
 }

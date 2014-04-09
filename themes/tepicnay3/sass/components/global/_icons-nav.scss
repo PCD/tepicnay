@@ -46,3 +46,8 @@
     padding-top: 59px;
   }
 }
+@media only screen and ($max_width_style : $mobile_limit) {
+  #block-menu-menu-iconos{
+    display: none;
+  }
+}
