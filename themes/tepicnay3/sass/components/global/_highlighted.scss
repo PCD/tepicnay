@@ -1,0 +1,11 @@
+.l-region--highlighted{
+  min-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+@media only screen and ($max_width_style : $mobile_limit) {
+  .l-region--highlighted{
+    margin-top: 20px;
+    min-width: 0;
+  }
+}

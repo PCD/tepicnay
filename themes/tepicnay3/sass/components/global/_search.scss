@@ -1,0 +1,26 @@
+#block-search-form{
+  width: 380px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 29px;
+  .form-actions .form-submit{
+    text-indent: -9999px;
+    width: 72px;
+    height: 29px;
+    background: #6DBBB7 url(../images/buscar.jpg) no-repeat;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 16px;
+    border-radius: 0 0 0 0;
+  }
+  .form-text{
+    font-size: 16px;
+    width: 300px;
+  }
+}
+@media only screen and ($max_width_style : $mobile_limit) {
+  #block-search-form{
+    display: none;
+  }
+}

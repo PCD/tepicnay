@@ -1,0 +1,47 @@
+#block-views-banners-carrucel-block{
+  margin-left: 250px;
+  overflow: hidden;
+  ul,
+  ul li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  ul li,
+  .jcarousel-item{
+    margin: 0 10px 0 0;
+  }
+  .views-row,
+  .jcarousel-item{
+    width: 480px;
+    height: 240px;
+    overflow: hidden;
+  }
+}
+@media only screen and ($max_width_style : $mobile_limit) {
+  #block-views-banners-carrucel-block{
+    margin-left: 0;
+    height: 240px;
+    overflow: hidden;
+    ul li,
+    .jcarousel-item{
+      margin: 0;
+    }
+    .views-row,
+    .jcarousel-item{
+      width: 100%;
+      height: auto;
+      float: left;
+      
+      .field__item{
+        text-align: center;
+      }
+      .field--name-field-image a{
+        display: inline-block;
+      }
+      .field--name-field-image a img{
+        height: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.l-main{
+  clear: both;
+  min-width: 960px;
+  margin: 10px auto 0;
+}
+.l-content{
+  background: white;
+  border: 1px solid #DED;
+  padding: 15px;
+}
+@media only screen and ($max_width_style : $mobile_limit) {
+  .l-main{
+    min-width: 0;
+  }
+}
