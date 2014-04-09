@@ -5,3 +5,5 @@ settings.php
 files
 private
 tmp
+pvt
+.DS_Store
