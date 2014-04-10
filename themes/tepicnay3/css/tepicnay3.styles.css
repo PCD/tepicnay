@@ -153,6 +153,25 @@ h1, h2, h3, h4, h5, h6 {
 .view-negocios .views-row .field__item a:hover {
   border-color: #BE7; }
 
+@media only screen and (max-device-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/directiorio\/_negocios\.scss}line{font-family:\0000332}}
+  .view-negocios .views-row {
+    width: 50%;
+    height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/directiorio\/_negocios\.scss}line{font-family:\0000335}}
+    .view-negocios .views-row .field__item a {
+      width: 100%;
+      height: 100%;
+      border: none;
+      padding: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/directiorio\/_negocios\.scss}line{font-family:\0000340}}
+      .view-negocios .views-row .field__item a img {
+        width: 100%;
+        height: auto; } }
+@media only screen and (max-device-width: 640px) and (orientation: landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/directiorio\/_negocios\.scss}line{font-family:\0000348}}
+  .view-negocios .views-row {
+    width: 33%; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_breadcrumbs\.scss}line{font-family:\000031}}
 ul.breadcrumb {
   padding: 0;
