@@ -405,6 +405,32 @@ ul.breadcrumb li.last {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_search\.scss}line{font-family:\0000323}}
   #block-search-form {
     display: none; } }
+@media only screen and (max-device-width: 640px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_sidebar-left-banners\.scss}line{font-family:\000032}}
+  .l-region--sidebar-first {
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_sidebar-left-banners\.scss}line{font-family:\000037}}
+  #block-views-banners-block,
+  #block-views-banners-block-1,
+  #block-views-banners-block-2 {
+    width: 250px;
+    height: 200px;
+    display: inline-block; } }
+@media only screen and (max-device-width: 640px) and (orientation: landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_sidebar-left-banners\.scss}line{font-family:\0000314}}
+  .l-region--sidebar-first:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_sidebar-left-banners\.scss}line{font-family:\0000321}}
+  #block-views-banners-block,
+  #block-views-banners-block-1,
+  #block-views-banners-block-2 {
+    width: 50%;
+    display: block;
+    float: left; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_sidebar-left\.scss}line{font-family:\000031}}
 .l-region--sidebar-first {
   border: 1px solid #DED;
