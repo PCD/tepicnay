@@ -1,0 +1,26 @@
+@media only screen and ($max_width_style : $mobile_limit) {
+  .l-region--sidebar-first{
+    text-align: center;
+  }
+  #block-views-banners-block,
+  #block-views-banners-block-1, 
+  #block-views-banners-block-2{
+    width: 250px;
+    height: 200px;
+    display: inline-block;
+  }
+}
+@media only screen and ($max_width_style : $mobile_limit) and (orientation : landscape) {
+  .l-region--sidebar-first:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #block-views-banners-block,
+  #block-views-banners-block-1, 
+  #block-views-banners-block-2{
+    width: 50%;
+    display: block;
+    float: left;
+  }
+}
