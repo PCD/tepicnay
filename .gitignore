@@ -2,6 +2,7 @@
 settings.php
 
 # Ignore paths that contain user-generated content.
+.DS_Store
 files
 private
 tmp
