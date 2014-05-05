@@ -21,6 +21,15 @@
     height: 240px;
     overflow: hidden;
   }
+  .jcarousel-next{
+    height: 240px;
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    left: 490px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.6);
+  }
 }
 @media only screen and ($max_width_style : $mobile_limit) {
   #block-views-banners-carrucel-block{

@@ -508,31 +508,40 @@ ul.breadcrumb li.last {
     width: 480px;
     height: 240px;
     overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000324}}
+  #block-views-banners-carrucel-block .jcarousel-next {
+    height: 240px;
+    width: 1000px;
+    position: absolute;
+    top: 0;
+    left: 490px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.6); }
 
 @media only screen and (max-device-width: 640px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000335}}
   #block-views-banners-carrucel-block {
     margin-left: 0;
     height: 240px;
     overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000340}}
     #block-views-banners-carrucel-block ul li,
     #block-views-banners-carrucel-block .jcarousel-item {
       margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000344}}
     #block-views-banners-carrucel-block .views-row,
     #block-views-banners-carrucel-block .jcarousel-item {
       width: auto;
       height: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000348}}
       #block-views-banners-carrucel-block .views-row .field__item,
       #block-views-banners-carrucel-block .jcarousel-item .field__item {
         text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000351}}
       #block-views-banners-carrucel-block .views-row .field--name-field-image a,
       #block-views-banners-carrucel-block .jcarousel-item .field--name-field-image a {
         display: inline-block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/home\/_top-carousel\.scss}line{font-family:\0000354}}
       #block-views-banners-carrucel-block .views-row .field--name-field-image a img,
       #block-views-banners-carrucel-block .jcarousel-item .field--name-field-image a img {
         height: auto; } }
