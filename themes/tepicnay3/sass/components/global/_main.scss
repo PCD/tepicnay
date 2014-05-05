@@ -1,7 +1,11 @@
 .l-main{
   clear: both;
-  min-width: 960px;
+  min-width: $normal_width;
   margin: 10px auto 0;
+  width: $normal_width;
+}
+.l-main:after{
+  clear: both;
 }
 .l-content{
   background: white;

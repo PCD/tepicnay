@@ -1,7 +1,8 @@
 .l-region--highlighted{
-  min-width: 960px;
+  min-width: $normal_width;
   margin: 0 auto;
   clear: both;
+  width: $normal_width;
 }
 @media only screen and ($max_width_style : $mobile_limit) {
   .l-region--highlighted{

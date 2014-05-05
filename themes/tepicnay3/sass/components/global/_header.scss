@@ -1,7 +1,8 @@
 .l-header{
-  min-width: 960px;
+  min-width: $normal_width;
   margin: 0 auto 10px;
   padding-top: 10px;
+  width: $normal_width;
 }
 .l-header:after{
   content: "";

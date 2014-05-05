@@ -4,9 +4,9 @@ body{
   font-family: Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;
   font-size: 11px;
   line-height: 128%;
-  padding-left: 20px;
-  padding-right: 20px;
-  min-width: 1000px;
+  padding-left: 0;
+  padding-right: 0;
+  min-width: 960px;
 }
 @media only screen and ($max_width_style : $mobile_limit) {
   body{
