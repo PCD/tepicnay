@@ -28,6 +28,14 @@
     width: 268px;
     position: relative;
     right: 278px;
+    .field--label-inline .field__label{
+      width: 60px;
+      text-align: right;
+    }
+    .field--label-inline .field__items{
+      margin-left: 70px;
+      float: none;
+    }
   }
   .group-left{
     float: right;

@@ -1,38 +1,44 @@
-.page-directorio{
+.page-directorio,
+.page-taxonomy-term{
   h1{
     margin-bottom: 10px;
     color: #CCCCCC;
     font-size: 12px;
   }
 }
-.view-negocios .view-content{
+.view.negocios .view-content{
   margin-left: -5px;
   margin-right: -5px;
 }
-.view-negocios .view-content:after{
+.view.negocios .view-content:after{
   content: "";
   display: table;
   clear: both;
 }
-.view-negocios .views-row{
+.view.negocios .views-row,
+.view.negocios .negocio{
   float: left;
   width: 130px;
   height: 130px;
 }
-.view-negocios .views-row .field__item a{
+.view.negocios .views-row .field__item a,
+.view.negocios .negocio .image a{
   display: block;
   border: solid 5px transparent;
   width: 130px;
   height: 130px;
 }
-.view-negocios .views-row .field__item a:hover{
+.view.negocios .views-row .field__item a:hover,
+.view.negocios .negocio .image a:hover{
   border-color: #BE7;
 }
 @media only screen and ($max_width_style : $mobile_limit) {
-  .view-negocios .views-row{
+  .view.negocios .views-row,
+  .view.negocios .negocio{
     width: 50%;
     height: auto;
-    .field__item a{
+    .field__item a,
+    .image a{
       width: 100%;
       height: 100%;
       border: none;
@@ -45,7 +51,8 @@
   }
 }
 @media only screen and ($max_width_style : $mobile_limit) and (orientation : landscape) {
-  .view-negocios .views-row{
+  .view.negocios .views-row,
+  .view.negocios .negocio{
     width: 33%;
   }
 }
