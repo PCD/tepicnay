@@ -21,6 +21,7 @@ scripts[] = js/jcarousel/jquery.jcarousel.min.js
 scripts[] = js/tepicnay3.home-carrucel.js
 scripts[] = js/tepicnay3.home-banners.js
 scripts[] = js/global-icons.js
+scripts[] = js/mobile-menu.js
 
 ; ========================================
 ; Regions

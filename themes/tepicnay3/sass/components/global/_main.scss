@@ -15,5 +15,6 @@
 @media only screen and ($max_width_style : $mobile_limit) {
   .l-main{
     min-width: 0;
+    width: auto;
   }
 }

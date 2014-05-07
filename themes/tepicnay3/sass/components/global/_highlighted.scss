@@ -6,7 +6,8 @@
 }
 @media only screen and ($max_width_style : $mobile_limit) {
   .l-region--highlighted{
-    margin-top: 20px;
+    margin-top: 10px;
     min-width: 0;
+    width: auto;
   }
 }

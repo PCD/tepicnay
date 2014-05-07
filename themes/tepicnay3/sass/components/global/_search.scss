@@ -23,4 +23,22 @@
   #block-search-form{
     display: none;
   }
+  .open #block-search-form{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    .form-text{
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0;
+      border-radius: 17px 17px 17px 17px;
+      padding: 7px 13px 6px;
+      height: auto;
+    }
+    .form-actions, 
+    .form-actions .form-submit{
+      display: none;
+    }
+  }
 }

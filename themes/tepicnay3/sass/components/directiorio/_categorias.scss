@@ -27,8 +27,37 @@
     }
   }
 }
+#mobile-categories{
+  display: none;
+}
 @media only screen and ($max_width_style : $mobile_limit) {
   #block-views-categorias-block{
     display: none;
+  }
+  .open{
+    #mobile-categories{
+      display: block;
+    }
+  }
+  #mobile-categories{
+    clear: both;
+    border-top: #8CC835 solid 9px;
+    border-bottom: #8CC835 solid 9px;
+    ul, 
+    ul li{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    ul li a{
+      text-decoration: none;
+      display: block;
+      padding: 15px;
+      background: #EEE;
+      border-top: solid 1px #FFF;
+      border-bottom: solid 1px #CCC;
+      color: #7AAE2F;
+      font-size: 1.3em;
+    }
   }
 }

@@ -36,6 +36,9 @@
     margin-left: 0;
     height: 240px;
     overflow: hidden;
+    .jcarousel-next{
+      display: none !important;
+    }
     ul li,
     .jcarousel-item{
       margin: 0;

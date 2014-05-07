@@ -1,0 +1,52 @@
+#menu-mobile{
+  position: absolute;
+  right: 10px;
+  display: none;
+}
+
+@media only screen and ($max_width_style : $mobile_limit) {
+  #menu-mobile{
+    display: block;
+    .menu-open-btn,
+    .menu-close-btn{
+      display: block;
+      background: #8CC835;
+      color: white;
+      text-decoration: none;
+      width: 64px;
+      padding: 10px 14px;
+      border-radius: 0 0 5px 5px;
+      font-size: 1.3em;
+    }
+    .menu-close-btn{
+      display: none;
+    }
+  }
+  .closed #menu-mobile{
+    .menu-open-btn{
+      display: block;
+    }
+    .menu-close-btn{
+      display: none;
+    }
+  }
+  .open #menu-mobile{
+    .menu-open-btn{
+      display: none;
+    }
+    .menu-close-btn{
+      display: block;
+    }
+  }
+  .l-header.open{
+    border-top: #8CC835 solid 9px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: #F4F4F4;
+    z-index: 2;
+  }
+}

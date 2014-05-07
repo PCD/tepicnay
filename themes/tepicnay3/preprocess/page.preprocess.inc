@@ -14,6 +14,9 @@ function tepicnay3_preprocess_page(&$variables) {
     // JS for specific Nodes
     tepicnay3_preprocess_page_nid($variables);
   }
+  
+  // Add Menu for Mobile
+  tepicnay3_preprocess_page_menu_mobile($variables);
 }
 
 function tepicnay3_preprocess_page_node_type(&$variables, $type) {
@@ -26,4 +29,17 @@ function tepicnay3_preprocess_page_node_type(&$variables, $type) {
 
 function tepicnay3_preprocess_page_nid(&$variables) {
   
+}
+
+function tepicnay3_preprocess_page_menu_mobile(&$variables) {
+  $header = &$variables['page']['header'];
+  $close = t('Close');
+  $menu_mobil = array(
+    '#type' => 'markup', 
+    '#markup' => "<div id=\"menu-mobile\" class=\"mobile\">
+      <a class=\"menu-open-btn\" href=\"#\">Menu</a>
+      <a class=\"menu-close-btn\" href=\"#\">{$close}</a>
+    </div>\n", 
+  );
+  array_unshift($header, $menu_mobil);
 }
