@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/directiorio\/_categorias\.scss}line{font-family:\0000338}}
-  .open #mobile-categories {
+  .mobile-menu-open #mobile-categories {
     display: block; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/directiorio\/_categorias\.scss}line{font-family:\0000342}}
@@ -444,7 +444,11 @@ ul.breadcrumb li.last {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_main\.scss}line{font-family:\0000316}}
   .l-main {
     min-width: 0;
-    width: auto; } }
+    width: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_main\.scss}line{font-family:\0000320}}
+  .mobile-menu-open .l-main {
+    display: none; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_mobile-menu\.scss}line{font-family:\000031}}
 #menu-mobile {
   position: absolute;
@@ -471,23 +475,23 @@ ul.breadcrumb li.last {
       display: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_mobile-menu\.scss}line{font-family:\0000326}}
-  .closed #menu-mobile .menu-open-btn {
+  .mobile-menu-closed #menu-mobile .menu-open-btn {
     display: block; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_mobile-menu\.scss}line{font-family:\0000329}}
-  .closed #menu-mobile .menu-close-btn {
+  .mobile-menu-closed #menu-mobile .menu-close-btn {
     display: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_mobile-menu\.scss}line{font-family:\0000334}}
-  .open #menu-mobile .menu-open-btn {
+  .mobile-menu-open #menu-mobile .menu-open-btn {
     display: none; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_mobile-menu\.scss}line{font-family:\0000337}}
-  .open #menu-mobile .menu-close-btn {
+  .mobile-menu-open #menu-mobile .menu-close-btn {
     display: block; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_mobile-menu\.scss}line{font-family:\0000341}}
-  .l-header.open {
+  .mobile-menu-open .l-header {
     border-top: #8CC835 solid 9px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -523,13 +527,13 @@ ul.breadcrumb li.last {
     display: none; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_search\.scss}line{font-family:\0000326}}
-  .open #block-search-form {
+  .mobile-menu-open #block-search-form {
     display: block;
     width: 100%;
     margin: 0;
     padding: 20px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_search\.scss}line{font-family:\0000331}}
-    .open #block-search-form .form-text {
+    .mobile-menu-open #block-search-form .form-text {
       width: 100%;
       box-sizing: border-box;
       margin: 0;
@@ -537,8 +541,8 @@ ul.breadcrumb li.last {
       padding: 7px 13px 6px;
       height: auto; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_search\.scss}line{font-family:\0000340}}
-    .open #block-search-form .form-actions,
-    .open #block-search-form .form-actions .form-submit {
+    .mobile-menu-open #block-search-form .form-actions,
+    .mobile-menu-open #block-search-form .form-actions .form-submit {
       display: none; } }
 @media only screen and (max-device-width: 640px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cristian100\/Sites\/gobierno\/html\/sites\/local\.tepicnay\.com\/themes\/tepicnay3\/sass\/components\/global\/_sidebar-left-banners\.scss}line{font-family:\000032}}

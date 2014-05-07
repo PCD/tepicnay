@@ -22,7 +22,7 @@
       display: none;
     }
   }
-  .closed #menu-mobile{
+  .mobile-menu-closed #menu-mobile{
     .menu-open-btn{
       display: block;
     }
@@ -30,7 +30,7 @@
       display: none;
     }
   }
-  .open #menu-mobile{
+  .mobile-menu-open #menu-mobile{
     .menu-open-btn{
       display: none;
     }
@@ -38,9 +38,9 @@
       display: block;
     }
   }
-  .l-header.open{
+  .mobile-menu-open .l-header{
     border-top: #8CC835 solid 9px;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;

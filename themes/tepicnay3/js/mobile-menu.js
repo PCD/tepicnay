@@ -18,12 +18,12 @@
    */
   function toggleMenuClick() {
     $('#menu-mobile .menu-open-btn').click(function(e){
-      $('.l-header').addClass('open').removeClass('closed');
+      $('body').addClass('mobile-menu-open').removeClass('mobile-menu-closed');
       event.preventDefault();
     });
     
     $('#menu-mobile .menu-close-btn').click(function(e){
-      $('.l-header').addClass('closed').removeClass('open');
+      $('body').addClass('mobile-menu-closed').removeClass('mobile-menu-open');
       event.preventDefault();
     });
   }
